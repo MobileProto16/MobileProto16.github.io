@@ -264,12 +264,14 @@ a {
 }
 
 #students-holder{
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .student{
-  display: inline-block;
-  margin: 10px;
+  margin: 5px;
+  width: 300px;
 }
 
 .student-name{
@@ -279,8 +281,8 @@ a {
 
 .avatar{
   margin: 10px;
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   border-radius: 50%;
   float: left;
 }
